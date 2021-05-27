@@ -24,6 +24,7 @@ Now let's look at `Matrix.js`. The `render()` method shows us what our `Matrix` 
 if we look at `genRow`, we'll see that every row will map through its `vals` to create an array of `<div className="cell">` JSX.
  
 In the end, the following HTML is generated (You can run this lab and use Chrome's developer tools to check for yourself):
+
 ```html
 <div id="root">
   <div id="matrix">
